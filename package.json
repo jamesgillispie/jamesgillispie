@@ -1,0 +1,32 @@
+{
+  "name": "jamesgillispie",
+  "version": "1.0.0",
+  "description": "James Gillispie Selected Projects",
+  "main": "./src/app.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "sanitize.css": "^5.0.0",
+    "webpack": "^3.5.6"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.6"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesgillispie/jamesgillispie.git"
+  },
+  "author": "James Gillispie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesgillispie/jamesgillispie/issues"
+  },
+  "homepage": "https://github.com/jamesgillispie/jamesgillispie#readme"
+}
