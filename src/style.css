@@ -1,3 +1,8 @@
-.hello {
-  color: red;
+html{
+	background: #333;
+}
+body{
+	background: #FFF;
+	max-width: 800px;
+	margin: 0 auto;
 }
