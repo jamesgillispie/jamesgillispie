@@ -1,0 +1,20 @@
+$sm: 762px;
+$md: 769px;
+$lg: 970px;
+$xl: 1440px;
+
+// bootstrap overrides.
+$grid-breakpoints: (
+  xs: 0,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl
+);
+
+$container-max-widths: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl
+);

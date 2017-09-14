@@ -1,0 +1,26 @@
+#wrapper {
+	padding-left: 0;
+}
+
+#wrapper.toggled {
+	padding-left: $shelf-width;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+	width: $shelf-width;
+}
+
+#sidebar-wrapper {
+	width: 0;
+	background: #aaa;			
+}
+
+#page-content-wrapper {
+	padding: 20px 0px;
+	position: relative;
+}
+
+#wrapper.toggled #page-content-wrapper {
+	position: relative;
+	margin-right: 0;
+}
