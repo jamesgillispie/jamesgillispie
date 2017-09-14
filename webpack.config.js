@@ -39,7 +39,7 @@ const cssProd = ExtractTextPlugin.extract({
                 loader: 'import-glob-loader'
             }
         ],
-        publicPath: '/dist'
+        publicPath: '/public'
 })
 const cssConfig = isProd ? cssProd : cssDev;
 
